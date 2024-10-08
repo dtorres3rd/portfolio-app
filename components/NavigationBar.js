@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-600 p-4 fixed w-full z-10">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-blue-600 p-4 fixed w-full z-10" style={{ top: '0px' }}>
+      <div className="container mx-auto flex justify-between items-center" >
         <h1 className="text-white text-lg font-bold">My Portfolio</h1>
         <div>
           <Link href="#home" className="text-white mx-4 hover:underline">Home</Link>
